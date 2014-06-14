@@ -9,7 +9,7 @@ Let's keep in touch :
 - https://twitter.com/trubliondotorg
 - contact@trublion.org
 
-We've been working on porting the [Oscuino library] (https://github.com/CNMAT/OSC) to the Spark Core, and we've faced the same problems as the ones mentioned in [that thread](https://community.spark.io/t/osc-open-sound-control-with-spark-core/371) by @jfenwick .
+We've been working on porting the [Oscuino library] (https://github.com/CNMAT/OSC) to the Spark Core, and we've faced the same problems as the ones mentioned in [that thread](https://community.spark.io/t/osc-open-sound-control-with-spark-core/371) by [jfenwick](https://github.com/jfenwick).
 
 Instead of rewriting the `UDPSend()` function of the `OSCMessage` and `OSCBundle` classes, we've identified that the issues came from the Spark's core-firmware code (`UDP` class in `spark_wiring_udp.cpp`).
 
@@ -81,4 +81,4 @@ This code will only work with the most recent versions of the core-firmware (or 
 
 - Test the functionalities
 
- [@Simon-L & @Emilien-G for @trublion]
+[[Simon-L](https://github.com/Simon-L) & [Emilien-G](https://github.com/emilien-g) for [trublion](https://github.com/trublion)]
